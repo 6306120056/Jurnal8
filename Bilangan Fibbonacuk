@@ -18,11 +18,11 @@ public class BilanganFibbonacuk {
             x[i] = c ;
             a=b; b=c ;
             temp+=c ;
-        }
+        }/*
          System.out.print("1 1") ;
         for(int i = 2 ; i < n ; i++){
             System.out.print(" " +x[i]) ;
-        }
+        }*/
         System.out.println("\nTotal : "+( temp + 2 )) ;
        
     }
